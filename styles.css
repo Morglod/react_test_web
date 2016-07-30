@@ -1,0 +1,86 @@
+body {
+    margin-top: 20px;
+
+    font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: rgb(222, 222, 222);
+}
+
+input, textarea {
+    text-align: initial !important;
+    border: 1px dashed #929292;
+
+    font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    width: 80%;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+.app {
+    background-color: white;
+    margin: 0 auto;
+    width: 420px;
+    height: auto;
+    margin-top: 10%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.tbl {
+    display: table;
+    width: 100%;
+}
+
+.tbl-row {
+    display: table-row;
+    width: 100%;
+}
+
+.tbl-cell {
+    display: table-cell;
+    text-align: center;
+}
+
+.entry-row {
+    cursor: pointer;
+}
+
+.entry-row:hover {
+    background-color: rgb(222, 222, 222);
+}
+
+.hide-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.error-text {
+    color: red;
+    text-align: center;
+}
